@@ -4,7 +4,7 @@
 :root{
     --Color-Primario-01: #000000; /*NEGRO*/
     --Color-Primario-02: #ffffff; /*BLANCO*/
-    --Color-segundario-01: #F6F6A5; /*AMARILLO*/
+    --Color-segundario-01: #F6F6A5; /*AMARILLO-GRIS*/
     --fondo: url("../img/atila.png")
 }
 
@@ -69,7 +69,6 @@ main{
 blockquote{
     color: #616050;
     text-shadow: 1px 1px 1px var(--Color-Primario-02);
-
 }
 
 /* SELECTORES DEL FOOTER */
@@ -104,11 +103,24 @@ blockquote{
     h1{ 
         font-size: 25vw;         
     }
+
+    .button-index a{
+        font-size: 8vw;  
+    }
+
+    blockquote{
+        border: 1px solid var(--Color-segundario-01);
+        font-size: 4vw; 
+        margin-top: 20px;
+        padding: 3vw;
+    }
+
     #footer-md{
         display: none;
     }
     #footer{
         display: flex;
+        text-align: center;
     }
     
 
